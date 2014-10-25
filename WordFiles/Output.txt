@@ -1,0 +1,53 @@
+JAVASCRIPT: Row 1, Col 10, RL - Right to Left
+PIXEL: Row 1, Col 15, RL - Right to Left
+INTERNET: Row 1, Col 16, D - Down
+GIF: Row 1, Col 17, D - Down
+LCD: Row 2, Col 1, D - Down
+MEMORY: Row 2, Col 4, LR - Left to Right
+EMAIL: Row 2, Col 5, RL - Right to Left
+MOUSE: Row 2, Col 11, LR - Left to Right
+SHAREWARE: Row 2, Col 14, D - Down
+TASKBAR: Row 3, Col 8, RL - Right to Left
+UNIX: Row 3, Col 12, RL - Right to Left
+SOFTWARE: Row 3, Col 15, D - Down
+FOLDER: Row 3, Col 17, D - Down
+DIRECTORY: Row 4, Col 3, LR - Left to Right
+ENCRYPTION: Row 4, Col 12, D - Down
+POWERSUPPLY: Row 5, Col 1, LR - Left to Right
+APPLICATION: Row 6, Col 4, DDR - Diagonal Down Right
+SAVEAS: Row 6, Col 10, RL - Right to Left
+CHAT: Row 6, Col 12, DDL - Diagonal Down Left
+GOOGLE: Row 6, Col 18, U - Up
+ICON: Row 7, Col 2, U - Up
+PARTITION: Row 7, Col 9, DDR - Diagonal Down Right
+DOS: Row 8, Col 3, DUR - Diagonal Up Right
+DEFRAGMENT: Row 9, Col 10, DDL - Diagonal Down Left
+THUMBNAIL: Row 9, Col 18, DDL - Diagonal Down Left
+BACKUP: Row 10, Col 1, U - Up
+SECURITY: Row 10, Col 13, U - Up
+HTML: Row 10, Col 18, U - Up
+CLICK: Row 11, Col 2, DUR - Diagonal Up Right
+KERNAL: Row 11, Col 3, DDR - Diagonal Down Right
+FILE: Row 11, Col 8, U - Up
+SPAM: Row 11, Col 15, DUR - Diagonal Up Right
+LOGIN: Row 11, Col 17, D - Down
+MONITOR: Row 11, Col 18, DDL - Diagonal Down Left
+BINARY: Row 12, Col 3, DUR - Diagonal Up Right
+BOOT: Row 12, Col 11, LR - Left to Right
+ROUTER: Row 13, Col 10, DDL - Diagonal Down Left
+DATA: Row 14, Col 11, DDL - Diagonal Down Left
+PASTE: Row 16, Col 6, DUL - Diagonal Up Left
+PROGRAMMER: Row 16, Col 12, DUL - Diagonal Up Left
+NETWORK: Row 16, Col 16, DUL - Diagonal Up Left
+SCAN: Row 17, Col 1, U - Up
+SCANNER: Row 17, Col 1, U - Up
+NANOSECOND: Row 17, Col 2, U - Up
+FIREWALL: Row 17, Col 3, LR - Left to Right
+WALLPAPER: Row 17, Col 11, DUL - Diagonal Up Left
+COOKIE: Row 17, Col 18, RL - Right to Left
+CURSOR: Row 17, Col 18, U - Up
+DISKDRIVE: Row 18, Col 3, DUR - Diagonal Up Right
+PDF: Row 18, Col 4, RL - Right to Left
+DRAG: Row 18, Col 6, DUL - Diagonal Up Left
+BYTE: Row 18, Col 15, LR - Left to Right
+BLUETOOTH: Row 18, Col 15, RL - Right to Left
