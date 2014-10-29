@@ -17,7 +17,7 @@ namespace WordSearchSolver
 
     class Program
     {
-        static Dictionary<string, WordType> WordDictionary = new Dictionary<string, WordType>(StringComparer.Ordinal);
+        static Dictionary<string, WordType> WordDictionary = new Dictionary<string, WordType>(StringComparer.OrdinalIgnoreCase);
         static int GridWidth;
         static int GridHeight;
         static int RowStart;
@@ -36,7 +36,7 @@ namespace WordSearchSolver
         static void Main(string[] args)
         {
             // Read file into string and split based on newlines & carriage returns (remove blank lines to prevent errors).
-            string puzzleFile = System.IO.File.ReadAllText(@"..\..\..\WordFiles\WordSearch.txt").ToUpper();
+            string puzzleFile = System.IO.File.ReadAllText(@"..\..\..\WordFiles\WordSearch.txt");
             string[] lines = puzzleFile.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
             // Assumes that every row has the same number of columns, like a standard word search puzzle.
@@ -55,7 +55,7 @@ namespace WordSearchSolver
             }
 
             // Read file into string and split based on newlines & carriage returns (remove spaces & blank lines to prevent errors).
-            string dictionaryFile = System.IO.File.ReadAllText(@"..\..\..\WordFiles\WordList.txt").ToUpper();
+            string dictionaryFile = System.IO.File.ReadAllText(@"..\..\..\WordFiles\WordList.txt");
             dictionaryFile = dictionaryFile.Replace(" ", String.Empty);
             string[] words = dictionaryFile.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
